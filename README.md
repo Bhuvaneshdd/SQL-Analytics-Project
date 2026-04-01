@@ -79,15 +79,6 @@ The dashboard provides a visual overview of student performance and revenue:
   Top students and courses by revenue
   Enrollment trends and gender distribution
 
-   --------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-🔹 Dashboard Preview
-
-(Add your images here 👇)
-
-![Overview](images/dashboard_overview.png)
-![Revenue](images/revenue_analysis.png)
-![Students](images/student_analysis.png)
 
    --------------------------------------------------------------------------------------------------------------------------------------------------------------
 
