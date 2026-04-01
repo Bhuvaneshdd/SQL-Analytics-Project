@@ -1,105 +1,97 @@
-📊 SQL Analytics Project (PostgreSQL + Snowflake + Power BI)
+# 📊 SQL Analytics Project (PostgreSQL + Snowflake + Power BI)
 
-🔹 Overview
+## 📌 Overview
 
-This project focuses on analyzing student performance, enrollment patterns, and
-revenue insights using SQL and visualizing the results through interactive Power
-BI dashboards.
+This project focuses on analyzing student data to uncover insights related to academic performance, enrollments, and revenue generation.
+It combines SQL-based data processing with interactive Power BI dashboards to present meaningful business insights.
 
-The workflow covers end-to-end data analysis — from querying structured data in 
-PostgreSQL and Snowflake to building dashboards that highlight key business insights.
+---
 
-   --------------------------------------------------------------------------------------------------------------------------------------------------------------
+## 🛠️ Tech Stack
 
-🔹 Tech Stack
+- **SQL (PostgreSQL)** – Data modeling and querying
 
-SQL (PostgreSQL & Snowflake)
-Power BI
-Data Modeling & Query Optimization
+- **Snowflake** – Cloud-based analytics and transformations
 
-   --------------------------------------------------------------------------------------------------------------------------------------------------------------   
+- **Power BI** – Data visualization and dashboard creation
 
-🔹 Project Structure
+---
 
-PostgreSQL/   → SQL queries for relational analysis  
-snowflake/    → Advanced analytical queries  
-PowerBI/      → Dashboard (.pbix file)  
-images/       → Dashboard previews  
+## 📂 Project Structure
 
-   --------------------------------------------------------------------------------------------------------------------------------------------------------------
+```
+SQL-Analytics-Project/
+│
+├── PostgreSQL/
+│   ├── create_tables.sql
+│   ├── insert_data.sql
+│   └── queries.sql
+│
+├── snowflake/
+│   └── queries.sql
+│
+├── PowerBI/
+│   └── academy_proj.pbix
+│
+├── images/
+│   └── (optional screenshots)
+│
+└── README.md
+```
 
-🔹 Key Features
+---
 
-Designed relational queries using joins, aggregations, and subqueries
-Performed department-level and student-level analysis
-Identified enrollment trends and course performance
-Built interactive dashboards with filters and KPI tracking
-Compared performance metrics across departments
+## 📊 Key Features
 
-   --------------------------------------------------------------------------------------------------------------------------------------------------------------
+- Designed relational database schema for student and course data
 
-🔹 PostgreSQL Analysis
+- Performed data analysis using SQL (joins, aggregations, subqueries)
 
-Focused on core data analysis using structured queries:
-  Student distribution across departments
-  Gender-wise analysis
-  Enrollment trends over time
-  Fee analysis and department-wise averages
-  Identification of students with no enrollments
+- Built interactive dashboards to track performance and revenue
 
-Example queries include joins, aggregations, and filtering logic such as:
-  Department-wise student count
-  Average fees calculation
-  Students with above-average fees
+- Identified trends in student enrollments and departmental performance
 
-   --------------------------------------------------------------------------------------------------------------------------------------------------------------
+---
 
-🔹 Snowflake Analysis
+## 📈 Key Insights
 
-Used Snowflake for more advanced analytical queries:
-  Students with multiple enrollments
-  Course-level and department-level comparisons
-  Window functions and QUALIFY usage
-  Cross-department enrollment analysis
+- Computer Science and Electronics departments show higher student engagement
 
-Example insights generated:
-  Students taking courses outside their department
-  Departments with highest average credits
+- Positive correlation between student fees and credits earned
 
-   --------------------------------------------------------------------------------------------------------------------------------------------------------------
+- Students enrolled in multiple courses tend to perform better
 
-🔹 Power BI Dashboard
+- A small group of high-fee students contributes significantly to revenue
 
-The dashboard provides a visual overview of student performance and revenue:
+---
 
-📊 Dashboard Highlights:
-  Total Students, Enrollments, Revenue KPIs
-  Department-wise performance comparison
-  Fee vs Credits relationship analysis
-  Top students and courses by revenue
-  Enrollment trends and gender distribution
+## 📊 Power BI Dashboard
 
+The Power BI dashboard includes:
 
-   --------------------------------------------------------------------------------------------------------------------------------------------------------------
+- KPI cards (Total Students, Revenue, Enrollments)
 
-🔹 Key Insights
+- Department-wise performance analysis
 
-Computer Science and Electronics departments show strong student participation
-Positive relationship between fees paid and credits earned
-Students enrolled in multiple courses tend to perform better
-High-performing students contribute significantly to revenue
-Enrollment peaks observed during mid-year
+- Enrollment trends over time
 
-   --------------------------------------------------------------------------------------------------------------------------------------------------------------
+- Student-level insights (top performers, high revenue contributors)
 
-🔹 How to Use
+---
 
-Run SQL scripts in PostgreSQL / Snowflake
-Load data into Power BI
-Open .pbix file to explore dashboard
+## 🚀 How to Use
 
-   --------------------------------------------------------------------------------------------------------------------------------------------------------------
+- 1.Run SQL scripts in PostgreSQL / Snowflake
 
-🔹 Conclusion
+- 2.Load data into your database
 
-This project demonstrates practical SQL skills combined with data visualization to derive meaningful insights from structured data. It highlights the ability to transform raw data into actionable business insights.
+- 3.Open Power BI file (`.pbix`)
+
+- 4.Refresh data and explore dashboards
+
+---
+
+## 🎯 Conclusion
+
+This project demonstrates end-to-end data analysis—from raw data processing using SQL to generating actionable insights through Power BI dashboards.
+
