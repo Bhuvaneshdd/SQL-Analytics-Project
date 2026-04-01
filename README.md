@@ -34,7 +34,7 @@ SQL-Analytics-Project/
 │   └── academy_proj.pbix
 │
 ├── images/
-│   └── (optional screenshots)
+│   └── (screenshots)
 │
 └── README.md
 ```
